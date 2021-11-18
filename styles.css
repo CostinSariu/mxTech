@@ -1,0 +1,474 @@
+
+p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.bg-custom-color{
+    background-color: #ffffff;
+}
+.xTextAnimateDown{
+    animation-delay: 1s; 
+    animation-duration: 1.2s; 
+    visibility: visible;
+}
+
+.xTopBarCont{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+    .xTopBarCont{
+        font-size: x-small;
+    }
+    .xTopBarHide{
+        display: none;
+    }
+}
+
+.xLandingWrapper{
+    display: flex;
+}
+.xLandingMainSect{
+    background-image: url('images/example.jpg'); 
+    display: flex; 
+    width: 70vw;
+}
+.xLandingMain2Sect{
+    width: 30vw; 
+    background: black; 
+    display: flex; 
+    align-items: center;
+}
+@media screen and (max-width: 1230px){
+    .xLandingWrapper{
+        flex-direction: column!important;
+    }
+    .xLandingMainSect{
+        width: 100vw;
+    }
+    .xLandingMain2Sect{
+        width: 100vw;
+        padding: 0px 15px 30px 15px;
+    }
+}
+
+.xLandingWidth{
+    height: 100%!important;
+}
+
+.xLandingServiceLink :hover{
+    cursor: pointer;
+}
+.xLandingServiceLink:hover .fas{
+    transform: translateX(5px);
+}
+
+#project-contact-form ::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.xCtaBtn{
+    margin: 100px auto 100px auto;
+    width: 50px;
+}
+.xCtaBtnMain{
+    margin: 10vh auto 10vh auto;
+    width: 50px;
+    color: white!important;
+    background-color: #ff214f!important;
+    border-color: #ff214f!important;
+    box-shadow: #ff214f 0px 0px 8px;
+}
+.xCtaBtnMain:hover{
+    color: white!important;
+    background-color: black!important;
+    border-color: black!important;
+    box-shadow: #202020 0px 0px 8px;
+}
+.xIntroInfoCont{
+    width: fit-content;
+    height: fit-content;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.xInfoTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 10%);
+    text-align: left;
+    font-size: calc(25px + 2vw);
+    margin: 15vh auto 0px auto;
+    padding: 0px 30px 0px 30px;
+}
+@media screen and (max-width: 475px) {
+    .xLandingTextCont{
+        height: fit-content;
+        margin: 0px;
+    }
+    .xIntroInfoCont{
+        flex-wrap: wrap;
+    }
+    .xInfoTitle{
+        color: rgb(70, 70, 70);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 10%);
+        text-align: left;
+        font-size: calc(25px + 1vw);
+    }
+    .xTabContent img{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+.xQuoteText{
+    margin: 0px 5px!important;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.xQuoteSection{
+    padding: 10vh 0px;
+}
+.xQuoteIcon{
+    font-size: 12px;
+    color: red;
+}
+.xQuoteCont{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.xLandingTabCont{
+    padding: 0px;
+    margin-top: 7.5vh;
+}
+.xRatingCont{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.tab-style2 .tab-content {
+    padding: 0px!important;
+}
+.xLandingTabSectionCont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.xLandingTabSectionCont .feature-box-4:hover{
+    cursor: pointer;
+}
+.xLandingTabSectionCont .feature-box-4:hover .xFeatureBoxTitle{
+    color: #ff214f;
+}
+.grid-item.feature-box-4 figure figcaption{
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+}
+@media screen and (min-width: 768px){
+    .xFeatureBox{
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+}
+@media screen and (min-width: 1000px){
+    .xFeatureBox{
+        flex: 0 0 33.333333%!important;
+        max-width: 33.333333%!important;
+    }
+    .xFeatureBox img{
+        height: 22vw!important;
+    }
+}
+.xFeatureBox{
+    padding: 0px!important;
+}
+.xFeatureBox span{
+    cursor: pointer;
+}
+.xLandingTabNavCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.xSeparator1{
+    display: flex;
+    left: 0px!important;
+    flex-wrap: nowrap;
+    width: 100vw;
+    margin-top: 0px;
+}
+.xSeparator2{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+}
+.xTabContent{
+    border-top: none!important;
+    padding-top: 0px!important;
+}
+.nav-pills a{
+    padding: 5px!important;
+}
+.nav-pills a.active{
+    color: #ff214f;
+
+}
+.xServiceTabCont{
+    display: flex;
+}
+.xIndustriesTabList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+@media screen and (max-width: 1000px){
+    .xSeparator1{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 530px){
+    .xLandingWidth{
+        width: 90vw;
+        max-width: 700px;
+        z-index: 10;
+        flex: none!important;
+    }
+    .xSeparator{
+        flex-wrap: wrap;
+    }
+    .xLandingTabSectionCont{
+        display: none;
+    }
+}
+
+
+
+
+.xInfoSect{
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+    padding: 0px 30px 30px 30px;
+    margin: 10vh auto 0px auto;
+    max-width: 1000px;
+    text-align: left;
+}
+.xProgressBarSect{
+    padding-top: 0px;
+}
+.xProgressBarCont{
+    width: 100%; 
+    max-width: none; 
+    flex: none;
+    text-align: unset!important;
+}
+.skillbar{
+    margin-top: 0px!important;
+}
+.skill-bar-text{
+    position: relative!important;
+    top: unset!important;
+    width: 86%;
+    margin-bottom: 10px;
+}
+@media screen and (min-width: 530px){
+    .xInfoSect{
+        font-size: 20px;
+    }
+}
+
+
+
+.xSocialMediaTabCont{
+    padding: 0px;
+    width: 100%;
+}
+.xSocialMediaTabNavCont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-style: unset;
+}
+.xSocialMediaTabNavCont li{
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0px!important;
+    background-color: rgba(0, 0, 0, 0%);
+}
+.xSocialMediaTabNavCont a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    border-style: solid!important;
+    border-width: 0px!important;
+    border-radius: 7px!important;
+    overflow: hidden;
+}
+.xSocialMediaTabNavCont a.active{
+    box-shadow: 0px 2px 8px rgba(20, 20, 20, 60%);
+}
+.xSocialMediaTabNavCont img{
+    height: 100%;
+    width: 100%;
+    max-width: unset!important;
+}
+
+.xSocialMediaTabItemCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 530px){
+    .xSocialMediaTabNavCont a{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+.xServiceCarousel{
+    padding-top: 5vh!important;
+    padding-bottom: 0px!important;
+}
+.xPricingTable{
+    flex: 0 0 100%!important;
+    max-width: 100%!important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.xPricingSectLarge{
+    display: none;
+    padding-bottom: 0px!important;
+}
+.xPricingSectSmall{
+    padding: 10vh 0px 0px 0px!important;
+}
+
+.xLogoSlider{
+    position: absolute; 
+    z-index: 1; 
+    min-height: 210vh; 
+    transform: translateY(-30vh);
+}
+.xLogoSliderBox{
+    width: calc(50px + 10vw)!important; 
+    height: calc(50px + 10vw)!important; 
+    max-width: 200px!important;
+    max-height: 200px!important;
+}
+@media screen and (max-width: 975px){
+    .xLogoSlider{
+        min-height: 100vh; 
+        transform: translateY(-25vh);
+    }
+}
+
+.xAdLandingCont{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 1100px){
+    .xAdLandingCont{
+        flex-direction: row;
+
+    }
+}
+
+.xCaseThumbnailWrapper{
+    min-height: 90px;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.xCaseThumbnailImg{
+    width: 100%; 
+    height: auto;
+}
+.xServicesCardWrapper{
+    padding: 10vh 0px 0px 0px;
+}
+.xLandingTitle{
+    margin: 10vh 0px 20px 0px; 
+    font-weight: bold; 
+    color: black; 
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 1500px){
+    .xLandingPartialHeight{
+        --aspect-ratio: 3 / 4;
+        width: auto;
+        max-width: 100vh;
+        height: inherit;
+        padding: 110px 0px 0px 0px!important;
+    }
+    .xMainVideo{
+        width: 100%!important;
+        min-width: unset!important;
+    }
+    .xLandingAboveFoldWrapper{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .xLandingTextWrapper{
+        display: flex;
+        align-content: center;
+        margin: 0px auto 0px auto;
+        min-height: 570px!important;
+    }
+    .xLandingDescText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 38vw;
+        max-width: 900px!important;
+        margin: 0px 50px 0px 50px;
+    }
+    .xLandingTitle{
+        margin-top: 130px;
+    }
+    .xCtaBtnMain{
+        margin: 20px auto 20px auto;
+    }
+    .xServicesCardWrapper{
+        padding: 0px 0px 0px 0px;
+    }
+    .m-0 figcaption{
+        bottom: unset!important;
+        top: 50%!important;
+    }
+}
